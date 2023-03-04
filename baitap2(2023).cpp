@@ -42,7 +42,7 @@ bool sinhVien::operator >(sinhVien sv){
 }
 
 bool sinhVien::operator <(sinhVien sv){
-	if(this->diemTB > sv.diemTB ){
+	if(this->diemTB < sv.diemTB ){
 		return true;
 	}return false;
 }
